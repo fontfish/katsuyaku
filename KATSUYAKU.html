@@ -211,7 +211,7 @@ table ruby {
 
     <div id="verbs">
       <table>
-        <tr id="verbConjugationHeadings" class="headings">
+        <tr id="verbConjugationHeadings" class="verbHeadings">
           <th class="dict" onclick=showInfo(this)>dictionary</th> <!-- foundational -->
           <th class="stem" onclick=showInfo(this)>pre-<em>masu</em></th> <!-- foundational -->
           <th class="negv" onclick=showInfo(this)>negative</th> <!-- foundational -->
@@ -228,7 +228,7 @@ table ruby {
           <th class="pneg" onclick=showInfo(this)>pre-<em>nai</em></th> <!-- really advanced -->
         </tr>
 
-        <tr id="groupOne" class="headings groupOne">
+        <tr id="groupOne" class="tableHeaders groupOne">
           <td class="groupOneHeader" colspan=14 onclick=showInfo(this)><h3>Group One Verbs</h3></td>
         </tr>
         <tr id="groupOneTaberu" class="groupOne">
@@ -280,7 +280,7 @@ table ruby {
           <td class="pneg" onclick=showInfo(this)><div class="tango"><ruby>き<rt>ki</rt></div></td>
         </tr>
 
-        <tr id="groupFive" class="headings groupFive">
+        <tr id="groupFive" class="tableHeaders groupFive">
           <td class="groupFiveHeader" colspan=14 onclick=showInfo(this)><h3>Group Five Verbs</h3></td>
         </tr>
         <tr id="groupFiveU" class="groupFive">
@@ -419,55 +419,8 @@ table ruby {
           <td class="pneg" onclick=showInfo(this)><div class="tango"><ruby>き<rt>ki</rt>ら<rt>ra</rt></ruby></div></td>
         </tr>
 
-        <tr id="exceptionsGroup" class="headings exceptionsGroup">
+        <tr id="exceptionsGroup" class="tableHeaders exceptionsGroup">
           <td class="exceptionsGroupHeader" colspan=14 onclick=showInfo(this)><h3>Exceptions</h3></td>
-        </tr>
-        <tr id="exceptionsGroupSuru" class="exceptionsGroup">
-          <td class="dict" onclick=showInfo(this)><div class="tango"><ruby>す<rt>su</rt>る<rt>ru</rt></div></td>
-          <td class="stem" onclick=showInfo(this)><div class="tango"><ruby>し<rt>shi</rt></div></td>
-          <td class="negv" onclick=showInfo(this)><div class="tango"><ruby>し<rt>shi</rt>な<rt>na</rt>い<rt>i</rt></ruby></div></td>
-          <td class="conj" onclick=showInfo(this)><div class="tango"><ruby>し<rt>shi</rt>て<rt>te</rt></ruby></div></td>
-          <td class="past" onclick=showInfo(this)><div class="tango"><ruby>し<rt>shi</rt>た<rt>ta</rt></ruby></div></td>
-          <td class="wish" onclick=showInfo(this)><div class="tango"><ruby>し<rt>shi</rt>た<rt>ta</rt>い<rt>i</rt></ruby></div></td>
-          <td class="potl" onclick=showInfo(this)><div class="tango"><ruby>で<rt>de</rt>き<rt>ki</rt>る<rt>ru</rt></ruby></div></td>
-          <td class="pass" onclick=showInfo(this)><div class="tango"><ruby>さ<rt>sa</rt>れ<rt>re</rt>る<rt>ru</rt></ruby></div></td>
-          <td class="caus" onclick=showInfo(this)><div class="tango"><ruby>さ<rt>sa</rt>せ<rt>se</rt>る<rt>ru</rt></ruby></div></td>
-          <td class="cond" onclick=showInfo(this)><div class="tango"><ruby>す<rt>su</rt>れ<rt>re</rt>ば<rt>ba</rt></ruby></div></td>
-          <td class="voli" onclick=showInfo(this)><div class="tango"><ruby>し<rt>shi</rt>よ<rt>yo</rt>う<rt>u</rt></ruby></div></td>
-          <td class="impt" onclick=showInfo(this)><div class="tango"><ruby>し<rt>shi</rt>ろ<rt>ro</rt></ruby>・<ruby>せ<rt>se</rt>よ<rt>yo</rt></ruby></div></td>
-          <td class="pneg" onclick=showInfo(this)><div class="tango"><ruby>し<rt>shi</rt></ruby></div></td>
-        </tr>
-        </tr>
-        <tr id="exceptionsGroupIku" class="exceptionsGroup">
-          <td class="dict" onclick=showInfo(this)><div class="tango"><ruby>い<rt>i</rt>く<rt>ku</rt></ruby></div></td>
-          <td class="stem" onclick=showInfo(this)><div class="tango"><ruby>い<rt>i</rt>き<rt>ki</rt></ruby></div></td>
-          <td class="negv" onclick=showInfo(this)><div class="tango"><ruby>い<rt>i</rt>か<rt>ka</rt>な<rt>na</rt>い<rt>i</rt></ruby></div></td>
-          <td class="conj" onclick=showInfo(this)><div class="tango"><ruby>い<rt>i</rt>って<rt>tte</rt></ruby></div></td>
-          <td class="past" onclick=showInfo(this)><div class="tango"><ruby>い<rt>i</rt>った<rt>tta</rt></ruby></div></td>
-          <td class="wish" onclick=showInfo(this)><div class="tango"><ruby>い<rt>i</rt>き<rt>ki</rt>た<rt>ta</rt>い<rt>i</rt></ruby></div></td>
-          <td class="potl" onclick=showInfo(this)><div class="tango"><ruby>い<rt>i</rt>け<rt>ke</rt>る<rt>ru</rt></ruby></div></td>
-          <td class="pass" onclick=showInfo(this)><div class="tango"><ruby>い<rt>i</rt>か<rt>ka</rt>れ<rt>re</rt>る<rt>ru</rt></ruby></div></td>
-          <td class="caus" onclick=showInfo(this)><div class="tango"><ruby>い<rt>i</rt>か<rt>ka</rt>せ<rt>se</rt>る<rt>ru</rt></ruby></div></td>
-          <td class="cond" onclick=showInfo(this)><div class="tango"><ruby>い<rt>i</rt>け<rt>ke</rt>ば<rt>ba</rt></ruby></div></td>
-          <td class="voli" onclick=showInfo(this)><div class="tango"><ruby>い<rt>i</rt>こ<rt>ko</rt>う<rt>u</rt></ruby></div></td>
-          <td class="impt" onclick=showInfo(this)><div class="tango"><ruby>い<rt>i</rt>け<rt>ke</rt></ruby></div></td>
-          <td class="pneg" onclick=showInfo(this)><div class="tango"><ruby>い<rt>i</rt>か<rt>ka</rt></ruby></div></td>
-        </tr>
-        </tr>
-        <tr id="exceptionsGroupKuru" class="exceptionsGroup">
-          <td class="dict" onclick=showInfo(this)><div class="tango"><ruby>く<rt>ku</rt>る<rt>ru</rt></ruby></div></td>
-          <td class="stem" onclick=showInfo(this)><div class="tango"><ruby>き<rt>ki</rt></ruby></div></td>
-          <td class="negv" onclick=showInfo(this)><div class="tango"><ruby>こ<rt>ko</rt>な<rt>na</rt>い<rt>i</rt></ruby></div></td>
-          <td class="conj" onclick=showInfo(this)><div class="tango"><ruby>き<rt>ki</rt>て<rt>te</rt></ruby></div></td>
-          <td class="past" onclick=showInfo(this)><div class="tango"><ruby>き<rt>ki</rt>た<rt>ta</rt></ruby></div></td>
-          <td class="wish" onclick=showInfo(this)><div class="tango"><ruby>き<rt>ki</rt>た<rt>ta</rt>い<rt>i</rt></ruby></div></td>
-          <td class="potl" onclick=showInfo(this)><div class="tango"><ruby>こ<rt>ki</rt>れ<rt>re</rt>る<rt>ru</rt></ruby></div></td>
-          <td class="pass" onclick=showInfo(this)><div class="tango"><ruby>こ<rt>ki</rt>ら<rt>ra</rt>れ<rt>re</rt>る<rt>ru</rt></ruby></div></td>
-          <td class="caus" onclick=showInfo(this)><div class="tango"><ruby>こ<rt>ki</rt>ら<rt>ra</rt>せ<rt>se</rt>る<rt>ru</rt></ruby></div></td>
-          <td class="cond" onclick=showInfo(this)><div class="tango"><ruby>く<rt>ku</rt>れ<rt>re</rt>ば<rt>ba</rt></ruby></div></td>
-          <td class="voli" onclick=showInfo(this)><div class="tango"><ruby>こ<rt>ko</rt>よ<rt>yo</rt>う<rt>u</rt></ruby></div></td>
-          <td class="impt" onclick=showInfo(this)><div class="tango"><ruby>き<rt>ki</rt>ろ<rt>ro</rt></ruby></div></td>
-          <td class="pneg" onclick=showInfo(this)><div class="tango"><ruby>こ<rt>ko</rt></ruby></div></td>
         </tr>
         <tr id="exceptionsGroupAru" class="exceptionsGroup">
           <td class="dict" onclick=showInfo(this)><div class="tango"><ruby>ある</ruby></div></td>
@@ -484,12 +437,57 @@ table ruby {
           <td class="impt" onclick=showInfo(this)><div class="tango"><ruby>あれ</ruby></div></td>
           <td class="pneg" onclick=showInfo(this)><div class="tango"><ruby>-</ruby></div></td>
         </tr>
+        <tr id="exceptionsGroupSuru" class="exceptionsGroup">
+          <td class="dict" onclick=showInfo(this)><div class="tango"><ruby>す<rt>su</rt>る<rt>ru</rt></div></td>
+          <td class="stem" onclick=showInfo(this)><div class="tango"><ruby>し<rt>shi</rt></div></td>
+          <td class="negv" onclick=showInfo(this)><div class="tango"><ruby>し<rt>shi</rt>な<rt>na</rt>い<rt>i</rt></ruby></div></td>
+          <td class="conj" onclick=showInfo(this)><div class="tango"><ruby>し<rt>shi</rt>て<rt>te</rt></ruby></div></td>
+          <td class="past" onclick=showInfo(this)><div class="tango"><ruby>し<rt>shi</rt>た<rt>ta</rt></ruby></div></td>
+          <td class="wish" onclick=showInfo(this)><div class="tango"><ruby>し<rt>shi</rt>た<rt>ta</rt>い<rt>i</rt></ruby></div></td>
+          <td class="potl" onclick=showInfo(this)><div class="tango"><ruby>で<rt>de</rt>き<rt>ki</rt>る<rt>ru</rt></ruby></div></td>
+          <td class="pass" onclick=showInfo(this)><div class="tango"><ruby>さ<rt>sa</rt>れ<rt>re</rt>る<rt>ru</rt></ruby></div></td>
+          <td class="caus" onclick=showInfo(this)><div class="tango"><ruby>さ<rt>sa</rt>せ<rt>se</rt>る<rt>ru</rt></ruby></div></td>
+          <td class="cond" onclick=showInfo(this)><div class="tango"><ruby>す<rt>su</rt>れ<rt>re</rt>ば<rt>ba</rt></ruby></div></td>
+          <td class="voli" onclick=showInfo(this)><div class="tango"><ruby>し<rt>shi</rt>よ<rt>yo</rt>う<rt>u</rt></ruby></div></td>
+          <td class="impt" onclick=showInfo(this)><div class="tango"><ruby>し<rt>shi</rt>ろ<rt>ro</rt></ruby>・<ruby>せ<rt>se</rt>よ<rt>yo</rt></ruby></div></td>
+          <td class="pneg" onclick=showInfo(this)><div class="tango"><ruby>し<rt>shi</rt></ruby></div></td>
+        </tr>
+        <tr id="exceptionsGroupIku" class="exceptionsGroup">
+          <td class="dict" onclick=showInfo(this)><div class="tango"><ruby>い<rt>i</rt>く<rt>ku</rt></ruby></div></td>
+          <td class="stem" onclick=showInfo(this)><div class="tango"><ruby>い<rt>i</rt>き<rt>ki</rt></ruby></div></td>
+          <td class="negv" onclick=showInfo(this)><div class="tango"><ruby>い<rt>i</rt>か<rt>ka</rt>な<rt>na</rt>い<rt>i</rt></ruby></div></td>
+          <td class="conj" onclick=showInfo(this)><div class="tango"><ruby>い<rt>i</rt>って<rt>tte</rt></ruby></div></td>
+          <td class="past" onclick=showInfo(this)><div class="tango"><ruby>い<rt>i</rt>った<rt>tta</rt></ruby></div></td>
+          <td class="wish" onclick=showInfo(this)><div class="tango"><ruby>い<rt>i</rt>き<rt>ki</rt>た<rt>ta</rt>い<rt>i</rt></ruby></div></td>
+          <td class="potl" onclick=showInfo(this)><div class="tango"><ruby>い<rt>i</rt>け<rt>ke</rt>る<rt>ru</rt></ruby></div></td>
+          <td class="pass" onclick=showInfo(this)><div class="tango"><ruby>い<rt>i</rt>か<rt>ka</rt>れ<rt>re</rt>る<rt>ru</rt></ruby></div></td>
+          <td class="caus" onclick=showInfo(this)><div class="tango"><ruby>い<rt>i</rt>か<rt>ka</rt>せ<rt>se</rt>る<rt>ru</rt></ruby></div></td>
+          <td class="cond" onclick=showInfo(this)><div class="tango"><ruby>い<rt>i</rt>け<rt>ke</rt>ば<rt>ba</rt></ruby></div></td>
+          <td class="voli" onclick=showInfo(this)><div class="tango"><ruby>い<rt>i</rt>こ<rt>ko</rt>う<rt>u</rt></ruby></div></td>
+          <td class="impt" onclick=showInfo(this)><div class="tango"><ruby>い<rt>i</rt>け<rt>ke</rt></ruby></div></td>
+          <td class="pneg" onclick=showInfo(this)><div class="tango"><ruby>い<rt>i</rt>か<rt>ka</rt></ruby></div></td>
+        </tr>
+        <tr id="exceptionsGroupKuru" class="exceptionsGroup">
+          <td class="dict" onclick=showInfo(this)><div class="tango"><ruby>く<rt>ku</rt>る<rt>ru</rt></ruby></div></td>
+          <td class="stem" onclick=showInfo(this)><div class="tango"><ruby>き<rt>ki</rt></ruby></div></td>
+          <td class="negv" onclick=showInfo(this)><div class="tango"><ruby>こ<rt>ko</rt>な<rt>na</rt>い<rt>i</rt></ruby></div></td>
+          <td class="conj" onclick=showInfo(this)><div class="tango"><ruby>き<rt>ki</rt>て<rt>te</rt></ruby></div></td>
+          <td class="past" onclick=showInfo(this)><div class="tango"><ruby>き<rt>ki</rt>た<rt>ta</rt></ruby></div></td>
+          <td class="wish" onclick=showInfo(this)><div class="tango"><ruby>き<rt>ki</rt>た<rt>ta</rt>い<rt>i</rt></ruby></div></td>
+          <td class="potl" onclick=showInfo(this)><div class="tango"><ruby>こ<rt>ki</rt>れ<rt>re</rt>る<rt>ru</rt></ruby></div></td>
+          <td class="pass" onclick=showInfo(this)><div class="tango"><ruby>こ<rt>ki</rt>ら<rt>ra</rt>れ<rt>re</rt>る<rt>ru</rt></ruby></div></td>
+          <td class="caus" onclick=showInfo(this)><div class="tango"><ruby>こ<rt>ki</rt>ら<rt>ra</rt>せ<rt>se</rt>る<rt>ru</rt></ruby></div></td>
+          <td class="cond" onclick=showInfo(this)><div class="tango"><ruby>く<rt>ku</rt>れ<rt>re</rt>ば<rt>ba</rt></ruby></div></td>
+          <td class="voli" onclick=showInfo(this)><div class="tango"><ruby>こ<rt>ko</rt>よ<rt>yo</rt>う<rt>u</rt></ruby></div></td>
+          <td class="impt" onclick=showInfo(this)><div class="tango"><ruby>き<rt>ki</rt>ろ<rt>ro</rt></ruby></div></td>
+          <td class="pneg" onclick=showInfo(this)><div class="tango"><ruby>こ<rt>ko</rt></ruby></div></td>
+        </tr>
       </table>
     </div> <!-- verbs -->
 
     <div id="adjectives">
       <table>
-        <tr id="adjectiveConjugationHeadings" class="headings">
+        <tr id="adjectiveConjugationHeadings" class="adjectiveHeadings">
           <th class="dict" onclick=showInfo(this)>standard</th>
           <th class="qntv" onclick=showInfo(this)>noun</th>
           <th class="advb" onclick=showInfo(this)>adverbial</th>
@@ -499,7 +497,7 @@ table ruby {
           <th class="cond" onclick=showInfo(this)>conditional (<em>ba</em>)</th>
         </tr>
 
-        <tr id="iAdjective" class="headings iAdjective">
+        <tr id="iAdjective" class="tableHeaders iAdjective">
           <td class="iAdjectiveHeader" colspan=14 onclick=showInfo(this)><h3><em>I</em> adjectives</h3></td>
         </tr>
         <tr id="iAdjectiveTanoshii" class="iAdjective">
@@ -567,13 +565,10 @@ table ruby {
 
 const noticeNoAI = "No AI tools were knowingly or deliberately used in the creation of this software. This software may not be used in conjunction with, or to train, any generative AI systems or large language models."
 
-const foundationalWords = ["dict", "stem", "negv", "conj", "past"];
-
-const intermediateWords = ["wish", "potl", "pass", "caus", "voli", "impt", "cdra"];
-
-const advancedWords = ["cond", "cdra"];
-
-const reallyAdvancedWords = ["pneg"];
+// const foundationalWords = ["dict", "stem", "negv", "conj", "past"];
+// const intermediateWords = ["wish", "potl", "pass", "caus", "voli", "impt", "cdra"];
+// const advancedWords = ["cond", "cdra"];
+// const reallyAdvancedWords = ["pneg"];
 
 // Old three-letter codes: dic, pre, nai, cnj, pst, wnt, pot, psv, ctv, cnd, vol, imp, cndRa, preNai
 
@@ -606,43 +601,43 @@ const reallyAdvancedWords = ["pneg"];
 // These should give an idea of what each form of a verb does.
 const explanations = new Map();
 
-explanations.set("headings groupFiveHeader", "For Group Five verbs, also called <em>U</em> verbs, the last kana in the verb changes and the rest of the conjugation is added on.");
+explanations.set("verbHeadings groupFiveHeader", "For Group Five verbs, also called <em>U</em> verbs, the last kana in the verb changes and the rest of the conjugation is added on.");
 
-explanations.set("headings dict", "The base form of a verb. This is called the dictionary form as it’s what you look up to find the word in a dictionary.");
-explanations.set("headings stem", "The pre-<em>masu</em> form of a verb is the form that the polite verb suffix <ruby>ま<rt>ma</rt>す<rt>su</rt></ruby> attaches to. This form can combine with certain other verbs to make compound verbs, and can sometimes be used as a noun.");
-explanations.set("headings negv", "The standard (casual) negative form always ends with <ruby>な<rt>na</rt>い<rt>i</rt></ruby>. Strictly speaking, <ruby>な<rt>na</rt>い<rt>i</rt></ruby> is an <em>I</em> adjective, and can be further conjugated as one.");
-explanations.set("headings conj", "The conjunctive form of a verb is the <em>and</em> form, so further information can come after this form. Casual requests often end in this form. This form always ends in <ruby>て<rt>te</rt></ruby> or <ruby>で<rt>de</rt></ruby>.");
-explanations.set("headings past", "The past tense of any given verb ending is always exactly the same as the conjunctive form but with <ruby>た<rt>ta</rt></ruby> or <ruby>だ<rt>da</rt></ruby> instead of <ruby>て<rt>te</rt></ruby> or <ruby>で<rt>de</rt></ruby>. This form simply indicates that something happened in the past.");
-explanations.set("headings wish", "The 〜<ruby>た<rt>ta</rt>い<rt>i</rt></ruby> form shows that the speaker <em>wants</em> the action indicated by that verb to happen. It is the suffix <ruby>た<rt>ta</rt>い<rt>i</rt></ruby> added to the pre-<em>masu</em> form of a verb. Like the negative verb ending, it can also be further conjugated as an adjective, for example to say that you <em>don’t</em> want to do something.");
-explanations.set("headings potl", "The potential form shows that something <em>could</em> or <em>can</em> happen.");
-explanations.set("headings pass", "The passive form of a verb indicates that something <em>is done</em>. It is much the same as passive grammar in English, but tends to be used more frequently.");
-explanations.set("headings caus", "The causative form of a verb can be used to show both that someone <em>allowed</em> something to happen and that someone <em>made</em> something happen. For instance “my parents made me learn guitar” and “my parents let me learn guitar” would both be said using this same form, though context and other grammatical clues will usually clarify which is the intended meaning.");
-explanations.set("headings cond", "The 〜<ruby>ば<rt>ba</rt></ruby> form is conditional, like a strong <em>if</em>. This is not the only way of forming conditional grammar, but it is the only way that requires a unique conjugation.");
-explanations.set("headings voli", "The volitional form shows a will to do something. It is similar to the English “let’s”.");
-explanations.set("headings impt", "The imperative form is also known as the command form, as that’s what it is. Using this form turns a verb into a strong command, so it’s rare to hear in everyday conversation.");
-// explanations.set("headings cndRa", "The 〜<ruby>ら<rt>ra</rt></ruby> conditional is always formed by adding <ruby>ら<rt>ra</rt></ruby> to the past-tense form of a verb. As the grammar implies, it is a way of saying <em>if</em> that emphasises the past/completed condition.");
-explanations.set("headings pneg", "This is not usually considered to be its own form by Japanese textbooks, but it is helpful to know as it is used before other negative conjugations, such as <ruby>ず<rt>zu</rt></ruby> and <ruby>ぬ<rt>nu</rt></ruby>.");
+explanations.set("verbHeadings dict", "The base form of a verb. This is called the dictionary form as it’s what you look up to find the word in a dictionary.");
+explanations.set("verbHeadings stem", "The pre-<em>masu</em> form of a verb is the form that the polite verb suffix <ruby>ま<rt>ma</rt>す<rt>su</rt></ruby> attaches to. This form can combine with certain other verbs to make compound verbs, and can sometimes be used as a noun.");
+explanations.set("verbHeadings negv", "The standard (casual) negative form always ends with <ruby>な<rt>na</rt>い<rt>i</rt></ruby>. Strictly speaking, <ruby>な<rt>na</rt>い<rt>i</rt></ruby> is an <em>I</em> adjective, and can be further conjugated as one.");
+explanations.set("verbHeadings conj", "The conjunctive form of a verb is the <em>and</em> form, so further information can come after this form. Casual requests often end in this form. This form always ends in <ruby>て<rt>te</rt></ruby> or <ruby>で<rt>de</rt></ruby>.");
+explanations.set("verbHeadings past", "The past tense of any given verb ending is always exactly the same as the conjunctive form but with <ruby>た<rt>ta</rt></ruby> or <ruby>だ<rt>da</rt></ruby> instead of <ruby>て<rt>te</rt></ruby> or <ruby>で<rt>de</rt></ruby>. This form simply indicates that something happened in the past.");
+explanations.set("verbHeadings wish", "The 〜<ruby>た<rt>ta</rt>い<rt>i</rt></ruby> form shows that the speaker <em>wants</em> the action indicated by that verb to happen. It is the suffix <ruby>た<rt>ta</rt>い<rt>i</rt></ruby> added to the pre-<em>masu</em> form of a verb. Like the negative verb ending, it can also be further conjugated as an adjective, for example to say that you <em>don’t</em> want to do something.");
+explanations.set("verbHeadings potl", "The potential form shows that something <em>could</em> or <em>can</em> happen.");
+explanations.set("verbHeadings pass", "The passive form of a verb indicates that something <em>is done</em>. It is much the same as passive grammar in English, but tends to be used more frequently.");
+explanations.set("verbHeadings caus", "The causative form of a verb can be used to show both that someone <em>allowed</em> something to happen and that someone <em>made</em> something happen. For instance “my parents made me learn guitar” and “my parents let me learn guitar” would both be said using this same form, though context and other grammatical clues will usually clarify which is the intended meaning.");
+explanations.set("verbHeadings cond", "The 〜<ruby>ば<rt>ba</rt></ruby> form is conditional, like a strong <em>if</em>. This is not the only way of forming conditional grammar, but it is the only way that requires a unique conjugation.");
+explanations.set("verbHeadings voli", "The volitional form shows a will to do something. It is similar to the English “let’s”.");
+explanations.set("verbHeadings impt", "The imperative form is also known as the command form, as that’s what it is. Using this form turns a verb into a strong command, so it’s rare to hear in everyday conversation.");
+explanations.set("verbHeadings pneg", "This is not usually considered to be its own form by Japanese textbooks, but it is helpful to know as it is used before other negative conjugations, such as <ruby>ず<rt>zu</rt></ruby> and <ruby>ぬ<rt>nu</rt></ruby>.");
+// explanations.set("verbHeadings cdra", "The 〜<ruby>ら<rt>ra</rt></ruby> conditional is always formed by adding <ruby>ら<rt>ra</rt></ruby> to the past-tense form of a verb. As the grammar implies, it is a way of saying <em>if</em> that emphasises the past/completed condition.");
 
 // Conjugations
 // These should explain how to make each conjugation.
 const conjugations = new Map();
 
-conjugations.set("groupFive dict", "REPLACE_0");
-conjugations.set("groupFive stem", "Change REPLACE_3 to REPLACE_2.");
-conjugations.set("groupFive negv", "Change REPLACE_3 to REPLACE_1 and add <ruby>な<rt>na</rt>い<rt>i</rt></ruby>.");
-conjugations.set("groupFive conj", "Change REPLACE_3 to REPLACE_7. This is very similar to the past-tense.");
-conjugations.set("groupFive past", "Change REPLACE_3 to REPLACE_6. This is very similar to the conjunctive.");
+conjugations.set("groupFive dict", "REPLACE_0_");
+conjugations.set("groupFive stem", "Change REPLACE_3_ to REPLACE_2_.");
+conjugations.set("groupFive negv", "Change REPLACE_3_ to REPLACE_1_ and add <ruby>な<rt>na</rt>い<rt>i</rt></ruby>.");
+conjugations.set("groupFive conj", "Change REPLACE_3_ to REPLACE_7_. This is very similar to the past-tense.");
+conjugations.set("groupFive past", "Change REPLACE_3_ to REPLACE_6_. This is very similar to the conjunctive.");
 conjugations.set("groupFive wish", "The wishful form is always made by adding <ruby>た<rt>ta</rt>い<rt>i</rt></ruby> to the <strong>pre-<em>masu</em></strong> form.");
-conjugations.set("groupFive potl", "Change REPLACE_3 to REPLACE_4<ruby>る<rt>ru</rt></ruby>.");
-conjugations.set("groupFive pass", "Change REPLACE_3 to REPLACE_1 and add <ruby>れ<rt>re</rt>る<rt>ru</rt></ruby>. This is very similar to the causative/permissive.");
-conjugations.set("groupFive caus", "Change REPLACE_3 to REPLACE_1 and add <ruby>せ<rt>se</rt>る<rt>ru</rt></ruby>. This is very similar to the passive form.");
-conjugations.set("groupFive cond", "Change REPLACE_3 to REPLACE_4 and add <ruby>ば<rt>ba</rt></ruby>.");
-conjugations.set("groupFive voli", "Change REPLACE_3 to REPLACE_5 <ruby>う<rt>u</rt></ruby>.");
-conjugations.set("groupFive impt", "Change REPLACE_3 to <ruby>え<rt>e</rt></ruby>.");
-conjugations.set("groupFive pneg", "Change REPLACE_3 to REPLACE_1.");
+conjugations.set("groupFive potl", "Change REPLACE_3_ to REPLACE_4_<ruby>る<rt>ru</rt></ruby>.");
+conjugations.set("groupFive pass", "Change REPLACE_3_ to REPLACE_1_ and add <ruby>れ<rt>re</rt>る<rt>ru</rt></ruby>. This is very similar to the causative/permissive.");
+conjugations.set("groupFive caus", "Change REPLACE_3_ to REPLACE_1_ and add <ruby>せ<rt>se</rt>る<rt>ru</rt></ruby>. This is very similar to the passive form.");
+conjugations.set("groupFive cond", "Change REPLACE_3_ to REPLACE_4_ and add <ruby>ば<rt>ba</rt></ruby>.");
+conjugations.set("groupFive voli", "Change REPLACE_3_ to REPLACE_5_ <ruby>う<rt>u</rt></ruby>.");
+conjugations.set("groupFive impt", "Change REPLACE_3_ to <ruby>え<rt>e</rt></ruby>.");
+conjugations.set("groupFive pneg", "Change REPLACE_3_ to REPLACE_1_.");
 // conjugations.set("groupFive cdra", "The <em>ra<em>-conditional form of a verb is always made by adding <ruby>ら<rt>ra</rt></ruby> to the past-tense form.");
 
-conjugations.set("groupOne dict", "REPLACE_0");
+conjugations.set("groupOne dict", "REPLACE_0_");
 conjugations.set("groupOne stem", "Remove the final <ruby>る<rt>ru</rt></ruby>.");
 conjugations.set("groupOne negv", "Add <ruby>な<rt>na</rt>い<rt>i</rt></ruby> to the <strong>pre-<em>masu</em></strong> form.");
 conjugations.set("groupOne conj", "Add <ruby>て<rt>ta</rt></ruby> to the <strong>pre-<em>masu</em></strong> form. This is very similar to the past-tense.");
@@ -657,12 +652,23 @@ conjugations.set("groupOne impt", "Change <ruby>る<rt>ru</rt></ruby> to <ruby>�
 conjugations.set("groupOne pneg", "The <strong>pre-negative</strong> form of a <strong><em>RU</em>-verb</strong> is the same as the <strong>pre-<em>masu</em></strong> form.");
 // conjugations.set("groupOne cdra", "The <em>ra<em>-conditional form of a verb is always made by adding <ruby>ら<rt>ra</rt></ruby> to the past-tense form.");
 
-const replacements = new Map();
+conjugations.set("exceptionsGroup dict", "REPLACE_0_");
+conjugations.set("exceptionsGroup stem", "REPLACE_1_");
+conjugations.set("exceptionsGroup negv", "REPLACE_2_");
+conjugations.set("exceptionsGroup conj", "REPLACE_3_");
+conjugations.set("exceptionsGroup past", "REPLACE_4_");
+conjugations.set("exceptionsGroup wish", "REPLACE_5_");
+conjugations.set("exceptionsGroup potl", "REPLACE_6_");
+conjugations.set("exceptionsGroup pass", "REPLACE_7_");
+conjugations.set("exceptionsGroup caus", "REPLACE_8_");
+conjugations.set("exceptionsGroup cond", "REPLACE_9_");
+conjugations.set("exceptionsGroup voli", "REPLACE_10_");
+conjugations.set("exceptionsGroup impt", "REPLACE_11_");
+conjugations.set("exceptionsGroup pneg", "REPLACE_12_");
+// conjugations.set("exceptionsGroup cdra", "REPLACE_13_");
 
-replacements.set(
-  "groupFiveHeader"
-  // TODO! Add header descriptions.
-);
+
+const replacements = new Map();
 
 replacements.set(
   "groupFiveU",
@@ -782,6 +788,7 @@ replacements.set(
   ]
 );
 
+// taberu, kiru, iru
 replacements.set(
   "groupOneTaberu",
   ["<ruby>た<rt>ta</rt>べ<rt>be</rt>る<rt>ru</rt></ruby> means “to eat”."]
@@ -795,10 +802,79 @@ replacements.set(
   ["<ruby>い<rt>i</rt>る<rt>ru</rt></ruby> means “to be”, but is only used to refer to the existence of animate creatures. Inanimate objects are instead described with <ruby>あ<rt>a</rt>る<rt>ru</rt></ruby>."]
 );
 
+// aru, suru, iku, kuru
+replacements.set(
+  "exceptionsGroupAru",
+  [
+    "<ruby>あ<rt>a</rt>る<rt>su</rt></ruby> means “to be”, but is almost never used when describing animate creatures, who are instead referred to with <ruby>い<rt>i</rt>る<rt>ru</rt></ruby>.",
+// stem
+// negv / ngtv
+// conj / cjtv
+// past
+// wish
+// potl / pttl
+// cond / cdba
+// pass / pssv
+// caus / cstv
+// voli
+// impt / iptv
+// pneg / pntv
+  ]
+);
 replacements.set(
   "exceptionsGroupSuru",
-  [""]
+  [
+    "<ruby>す<rt>su</rt>る<rt>ru</rt></ruby> means “to do”. It can be used after a wide range of nouns to make them into <strong><em>suru</em> verbs</strong>. Most of its forms are the same as the conjugations that follow a verb ending in <ruby>す<rt>su</rt></ruby>, with the exception of the negative, passive and imperative forms.",
+    "The pre-<em>masu</em> form of <ruby>す<rt>su</rt>る<rt>ru</rt></ruby> is simply <ruby>し<rt>shi</rt></ruby>.",
+    "The negative form of <ruby>す<rt>su</rt>る<rt>ru</rt></ruby> is <ruby>し<rt>shi</rt>な<rt>na</rt>い<rt>i</rt></ruby>.",
+    "The conjunctive form of <ruby>す<rt>su</rt>る<rt>ru</rt></ruby> is <ruby>し<rt>shi</rt>て<rt>te</rt></ruby>.",
+    "The past tense of <ruby>す<rt>su</rt>る<rt>ru</rt></ruby> is <ruby>し<rt>shi</rt>た<rt>ta</rt></ruby>.",
+    "The wishful form of <ruby>す<rt>su</rt>る<rt>ru</rt></ruby> is <ruby>し<rt>shi</rt>た<rt>ta</rt>い<rt>i</rt></ruby>.",
+    "The potential form of <ruby>す<rt>su</rt>る<rt>ru</rt></ruby> is the completely different word <ruby>で<rt>de</rt>き<rt>ki</rt>る<rt>ru</rt></ruby>, which is itself a <em>RU</em> verb.",
+    "The conditional form of <ruby>す<rt>su</rt>る<rt>ru</rt></ruby> is <ruby>す<rt>su</rt>れ<rt>re</rt>ば<rt>ba</rt></ruby>.",
+    "The passive form of <ruby>す<rt>su</rt>る<rt>ru</rt></ruby> is <ruby>さ<rt>sa</rt>れ<rt>re</rt>る<rt>ru</rt></ruby>.",
+    "The causative form of <ruby>す<rt>su</rt>る<rt>ru</rt></ruby> is　<ruby>さ<rt>sa</rt>せ<rt>se</rt>る<rt>ru</rt></ruby>.",
+    "The volitional form of <ruby>す<rt>su</rt>る<rt>ru</rt></ruby> is <ruby>さ<rt>sa</rt>れ<rt>re</rt>る<rt>ru</rt></ruby>.",
+    "The imperative form of <ruby>す<rt>su</rt>る<rt>ru</rt></ruby> is <ruby>し<rt>shi</rt>ろ<rt>ro</rt></ruby>, though <ruby>さ<rt>sa</rt>よ<rt>yo</rt></ruby> is a more literary alternative.",
+  ]
 );
+replacements.set(
+  "exceptionsGroupIku",
+  [
+    "<ruby>い<rt>i</rt>く<rt>ku</rt></ruby> means “to go”. Its more old-fashioned sounding pronunciation, which is still used in some contexts, is <ruby>ゆ<rt>yu</rt>く<rt>ku</rt></ruby>. Most of its conjugations are the same as any other verb ending in <ruby>く<rt>ku</rt></ruby>, except for the conjunctive and past forms.",
+// stem
+// negv / ngtv
+// conj / cjtv
+// past
+// wish
+// potl / pttl
+// cond / cdba
+// pass / pssv
+// caus / cstv
+// voli
+// impt / iptv
+// pneg / pntv
+  ]
+);
+replacements.set(
+  "exceptionsGroupKuru",
+  [
+    "<ruby>く<rt>ku</rt>る<rt>su</rt></ruby> means “to come”. Like <ruby>い<rt>i</rt>く<rt>ku</rt></ruby>, this word describes direction of movement. For many of its conjugations, the <ruby>く<rt>ku</rt></ruby> becomes either <ruby>き<rt>ki</rt></ruby> or <ruby>こ<rt>ko</rt>.",
+// stem
+// negv / ngtv
+// conj / cjtv
+// past
+// wish
+// potl / pttl
+// cond / cdba
+// pass / pssv
+// caus / cstv
+// voli
+// impt / iptv
+// pneg / pntv
+  ]
+);
+
 
 
 // Functions
@@ -806,7 +882,7 @@ replacements.set(
 // Display a status message.
 function message(text) {
     console.log(text);
-    document.getElementById("statusmessage").innerHTML = text;
+    // document.getElementById("statusmessage").innerHTML = text;
 }
 
 // Show or hide the instructions.
@@ -862,7 +938,7 @@ function showInfo(e) {
 
     // Substitute verb ending-specific words.
     for (let i = 0; i < subs.length; i++) {
-      info = info.replace("REPLACE_" + i, subs[i]); // replaces[i]
+      info = info.replace("REPLACE_" + i + "_", subs[i]); // replaces[i]
     }
   }
   // Display the new text.
@@ -882,5 +958,4 @@ message("Japanese verb and adjective conjugation chart, version 0.1 (2026-04-12)
 
 </html>
 
-<!-- Copyright (c) the author of this software, 2025. -->
-
+<!-- Copyright (c) the author of this software, 2026. -->

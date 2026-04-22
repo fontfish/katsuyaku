@@ -1,6 +1,8 @@
 # KATSUYAKU – Japanese Conjugation Chart in HTML
 
 An in-progress Japanese language conjugation chart.
+Mostly made from memory. For sensitive or important work,
+please reference a more reliable source.
 
 ## To Do
 
@@ -9,6 +11,8 @@ An in-progress Japanese language conjugation chart.
 - [ ] Add buttons to show and hide conjugations of different complexities.
 - [ ] Add buttons to show/hide verb/adjective charts.
 - [ ] Add button to show/hide all ruby text.
+
+---
 
 - [ ] Set outer html, not innner, in descriptions, to allow multi-paragraph text.
 - [ ] Add examples to descriptions.
@@ -21,3 +25,5 @@ An in-progress Japanese language conjugation chart.
 - [ ] Add all conjugation and descriptions.
 - [ ] Get basic styling working (clickable objects highlighted on mouseover).
 - [ ] Add header descriptions.
+- [ ] Consistently rewrite all descriptions. (Clarity is more important than formality.)
+- [ ] Test that everything is in the right place.
