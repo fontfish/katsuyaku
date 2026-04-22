@@ -1,0 +1,265 @@
+Info to show!
+
+Mouse-over of any interactive element should make it glow.
+Mouse-over of any kana word should display the pronunciation for it.
+Clicking on an interactive element should make the info area at the bottom display text.
+
+Clicking on any given conjugation should give you and explanation of how to form that conjugation.
+Clicking on any dictionary form should give a definition for that word, as well as highlighting (bg colour change) of related conjugations.
+
+Verbs and adjective should be able to be shown and hidden.
+Opening one should hide the other.
+
+Pronunciations should maybe be in ruby text! It’s just a pain …
+
+Complex forms should be hidden by default. Add a “show advanced grammar” button.
+Really advanced grammar: “pre-ない” forms, 〜たら forms
+
+Note: Some of these forms (passive, causative, potential) become verbs of their own!
+
+Verb Forms
+
+(dictionary, pre-masu, negative, conjunctive, past, wishful,
+potential, passive, causative, conditional, volitional)
+
+Group 1 (U verb)
+
+たべる　たべ　たべない　たべて　たべた　たべたい　たべられる　たべられる　たべさせる　たべれば　たべよう　たべろ
+きる　　き　　きない　　きて　　きた　　きたい　　きられる　　きれば　　　きさせる　　きれば　　きよう　　きろ
+いる　　い　　いない　　いて　　いた　　いたい　　いられる　　いられる　　いさせる　　いれば　　いよう　　いろ
+
+Group 5 (RU verb)
+
+　　　　０　　　１　　　　　２　　　　３　　　　４　　　　　５　　　　６　　　　　７　　　　　８　　　　９　　　　１０
+あう　　あい　　あわない　　あって　　あった　　あいたい　　あえる　　あわれる　　あわせる　　あえば　　あおう　　あえ
+いう　　いい　　いわない　　いって　　いった　　いいたい　　いえる　　いわれる　　いわせる　　いえば　　いおう　　いえ
+かく　　かき　　かかない　　かいて　　かいた　　かきたい　　かける　　かかれる　　かかせる　　かけば　　かこう　　かけ
+およぐ　およぎ　およがない　およいで　およいだ　およぎたい　およげる　およがれる　およがせる　およげば　およごう　およげ
+はなす　はなし　はなさない　はなして　はなした　はなしたい　はなせる　はなされる　はなさせる　はなせば　はなそう　はなせ
+たつ　　たち　　たたない　　たって　　たった　　たちたい　　たてる　　たたれる　　たたせる　　たてば　　たとう　　たて
+しぬ　　しに　　しなない　　しんで　　しんだ　　しにたい　　しねる　　しなれる　　しなせる　　しねば　　しのう　　しね
+よぶ　　よび　　よばない　　よんで　　よんだ　　よびたい　　よべる　　よばれる　　よばせる　　よべば　　よぼう　　よべ
+よむ　　よみ　　よまない　　よんで　　よんだ　　よみたい　　よめる　　よまれる　　よませる　　よめば　　よもう　　よめ
+きる　　きり　　きらない　　きって　　きった　　きりたい　　きれる　　きられる　　きらせる　　きれば　　きろう　　きれ
+
+0 pre-masu -- Also usually the noun form! -- FUNDAMENTAL
+1 negative -- FUNDAMENTAL
+2 conjunctive -- FUNDAMENTAL
+3 past -- FUNDAMENTAL
+4 tai -- This is just the pre-masu form with たい added on! -- INTERMEDIATE
+5 potential -- INTERMEDIATE
+6 passive -- INTERMEDIATE
+7 causative -- Also means something was allowed to happen! -- ADVANCED
+8 conditional -- ADVANCED
+9 volitional -- INTERMEDIATE
+10 imperative (command) -- You hear this a lot in anime, but not often in real life! -- ADVANCED
+
+11 conditional 2 -- Just the past-tense form with ら stuck to it. -- REALLY ADVANCED
+12 pre-nai -- REALLY ADVANCED
+
+Links
+う, つ, る
+1, 4
+6, 7
+8, 5, 10
+
+Irregular Verbs
+する
+いく
+くる
+
+Exceptions
+ある　　あり　　ない　あって　　あった　　ありたい　　あれる>ありうる・ありえる　あられる？　あらせる　　あれば　　あろう　　あれ
+The verb ある, which means “to be”
+聞く　（きこえる）
+
+
+
+Adjectives
+
+たのしい　たのしくない　　たのしく　たのしさ
+キレイな　キレイじゃない　キレイに　キレイ
+〜的な　　〜的じゃない　　〜的に　　〜的
+
+I-adjectives
+たのしい
+たのしさ
+たのしく
+たのしくて
+たのしかった
+たのしくない
+たのしみ
+
+NA-adjectives
+きれいな
+きれい
+きれいで
+きれいだった
+きれいに
+きれいじゃない
+きれい？？？
+
+Exceptions
+良い (When it isn’t conjugated, よい (yoi – good) is usually pronounced as いい (ii).
+
+
+DESCRIPTIONS
+
+groupFive dic
+groupFive pre
+groupFive nai
+groupFive cnj
+groupFive pst
+groupFive wnt
+groupFive pot
+groupFive psv
+groupFive ctv
+groupFive cnd
+groupFive vol
+groupFive imp
+groupFive cndRa
+groupFive preNai
+
+
+groupOne dic
+groupOne pre
+groupOne nai
+groupOne cnj
+groupOne pst
+groupOne wnt
+groupOne pot
+groupOne psv
+groupOne ctv
+groupOne cnd
+groupOne vol
+groupOne imp
+groupOne cndRa
+
+
+<ruby>た<rt>ta</rt>べ<rt>be</rt>る<rt>ru</rt></ruby>
+<ruby>た<rt>ta</rt>べ<rt>be</rt></ruby>
+<ruby>た<rt>ta</rt>べ<rt>be</rt>な<rt>na</rt>い<rt>i</rt></ruby>
+<ruby>た<rt>ta</rt>べ<rt>be</rt>て<rt>te</rt></ruby>
+<ruby>た<rt>ta</rt>べ<rt>be</rt>た<rt>ta</rt></ruby>
+<ruby>た<rt>ta</rt>べ<rt>be</rt>た<rt>ta</rt>い<rt>i</rt></ruby>
+<ruby>た<rt>ta</rt>べ<rt>be</rt>ら<rt>ra</rt>れ<rt>re</rt>る<rt>ru</rt></ruby>
+<ruby>た<rt>ta</rt>べ<rt>be</rt>ら<rt>ra</rt>れ<rt>re</rt>る<rt>ru</rt></ruby>
+<ruby>た<rt>ta</rt>べ<rt>be</rt>さ<rt>sa</rt>せ<rt>se</rt>る<rt>ru</rt></ruby>
+<ruby>た<rt>ta</rt>べ<rt>be</rt>れ<rt>re</rt>ば<rt>ba</rt></ruby>
+<ruby>た<rt>ta</rt>べ<rt>be</rt>よ<rt>yo</rt>う<rt>u</rt></ruby>
+<ruby>た<rt>ta</rt>べ<rt>be</rt>ろ<rt>ro</rt></ruby>
+
+
+
+<ruby>は<rt>ha</rt>な<rt>na</rt>す<rt>su</rt></ruby>
+<ruby>は<rt>ha</rt>な<rt>na</rt>し<rt>shi</rt></ruby>
+<ruby>は<rt>ha</rt>な<rt>na</rt>さ<rt>sa</rt>な<rt>na</rt>い<rt>i</rt></ruby>
+<ruby>は<rt>ha</rt>な<rt>na</rt>し<rt>shi</rt>て<rt>te</rt></ruby>
+<ruby>は<rt>ha</rt>な<rt>na</rt>し<rt>shi</rt>た<rt>ta</rt></ruby>
+<ruby>は<rt>ha</rt>な<rt>na</rt>し<rt>shi</rt>た<rt>ta</rt>い<rt>i</rt></ruby>
+<ruby>は<rt>ha</rt>な<rt>na</rt>せ<rt>se</rt>る<rt>ru</rt></ruby>
+<ruby>は<rt>ha</rt>な<rt>na</rt>さ<rt>sa</rt>れ<rt>re</rt>る<rt>ru</rt></ruby>
+<ruby>は<rt>ha</rt>な<rt>na</rt>さ<rt>sa</rt>せ<rt>se</rt>る<rt>ru</rt></ruby>
+<ruby>は<rt>ha</rt>な<rt>na</rt>せ<rt>se</rt>ば<rt>ba</rt></ruby>
+<ruby>は<rt>ha</rt>な<rt>na</rt>そ<rt>so</rt>う<rt>u</rt></ruby>
+<ruby>は<rt>ha</rt>な<rt>na</rt>せ<rt>se</rt></ruby>
+<ruby>は<rt>ha</rt>な<rt>na</rt>し<rt>shi</rt>た<rt>ta</rt>ら<rt>ra</rt></ruby>
+<ruby>は<rt>ha</rt>な<rt>na</rt>さ<rt>sa</rt></ruby>
+
+<ruby>た<rt>ta</rt>つ<rt>tsu</rt></ruby>
+<ruby>た<rt>ta</rt>ち<rt>chi</rt></ruby>
+<ruby>た<rt>ta</rt>た<rt>ta</rt>な<rt>na</rt>い<rt>i</rt></ruby>
+<ruby>た<rt>ta</rt>って<rt>tte</rt></ruby>
+<ruby>た<rt>ta</rt>った<rt>tta</rt></ruby>
+<ruby>た<rt>ta</rt>ち<rt>chi</rt>た<rt>ta</rt>い<rt>i</rt></ruby>
+<ruby>た<rt>ta</rt>て<rt>te</rt>る<rt>ru</rt></ruby>
+<ruby>た<rt>ta</rt>た<rt>ta</rt>れ<rt>re</rt>る<rt>ru</rt></ruby>
+<ruby>た<rt>ta</rt>た<rt>ta</rt>せ<rt>se</rt>る<rt>ru</rt></ruby>
+<ruby>た<rt>ta</rt>て<rt>te</rt>ば<rt>ba</rt></ruby>
+<ruby>た<rt>ta</rt>と<rt>to</rt>う<rt>u</rt></ruby>
+<ruby>た<rt>ta</rt>て<rt>te</rt></ruby>
+<ruby>た<rt>ta</rt>った<rt>tta</rt>ら<rt>ra</rt></ruby>
+<ruby>た<rt>ta</rt>た<rt>ta</rt></ruby>
+
+<ruby>し<rt>shi</rt>ぬ<rt>nu</rt></ruby>
+<ruby>し<rt>shi</rt>に<rt>ni</rt></ruby>
+<ruby>し<rt>shi</rt>な<rt>na</rt>な<rt>na</rt>い<rt>i</rt></ruby>
+<ruby>し<rt>shi</rt>ん<rt>nで<rt>de</rt></ruby>
+<ruby>し<rt>shi</rt>ん<rt>nだ<rt>da</rt></ruby>
+<ruby>し<rt>shi</rt>に<rt>niたtaい<rt>i</rt></ruby>
+<ruby>し<rt>shi</rt>ね<rt>ne</rt>る<rt>ru</rt></rt></ruby>
+<ruby>し<rt>shi</rt>な<rt>na</rt>れ<rt>re</rt>る<rt>ru</rt></ruby>
+<ruby>し<rt>shi</rt>な<rt>na</rt>せ<rt>se</rt>る<rt>ru</rt></ruby>
+<ruby>し<rt>shi</rt>ね<rt>ne</rt>ば<rt>ba</rt></ruby>
+<ruby>し<rt>shi</rt>の<rt>no</rt>う<rt>u</rt></ruby>
+<ruby>し<rt>shi</rt>ね<rt>ne</rt></ruby>
+<ruby>し<rt>shi</rt>ん<rt>nだ<rt>da</rt>ら<rt>ra</rt></ruby>
+<ruby>し<rt>shi</rt>な<rt>na</rt></ruby>
+
+<ruby>よ<rt>yo</rt>ぶ<rt>bu</rt></ruby>
+<ruby>よ<rt>yo</rt>び<rt>bi</rt></ruby>
+<ruby>よ<rt>yo</rt>ば<rt>ba</rt>な<rt>na</rt>い<rt>i</rt></ruby>
+<ruby>よ<rt>yo</rt>ん<rt>n</rt>で<rt>de</rt></ruby>
+<ruby>よ<rt>yo</rt>ん<rt>n</rt>だ<rt>da</rt></ruby>
+<ruby>よ<rt>yo</rt>び<rt>bi</rt>た<rt>ta</rt>い<rt>i</rt></ruby>
+<ruby>よ<rt>yo</rt>べ<rt>be</rt>る<rt>ru</rt></ruby>
+<ruby>よ<rt>yo</rt>ば<rt>ba</rt>れ<rt>re</rt>る<rt>ru</rt></ruby>
+<ruby>よ<rt>yo</rt>ば<rt>ba</rt>せ<rt>se</rt>る<rt>ru</rt></ruby>
+<ruby>よ<rt>yo</rt>べ<rt>be</rt>ば<rt>ba</rt></ruby>
+<ruby>よ<rt>yo</rt>ぼ<rt>bo</rt>う<rt>u</rt></ruby>
+<ruby>よ<rt>yo</rt>べ<rt>be</rt></ruby>
+<ruby>よ<rt>yo</rt>ん<rt>n</rt>だ<rt>da</rt>ら<rt>ra</rt></ruby>
+<ruby>よ<rt>yo</rt>ば<rt>ba</rt></ruby>
+
+<ruby>よ<rt>yo</rt>む<rt>mu</rt></ruby>
+<ruby>よ<rt>yo</rt>み<rt>mi</rt></ruby>
+<ruby>よ<rt>yo</rt>ま<rt>ma</rt>な<rt>na</rt>い<rt>i</rt></ruby>
+<ruby>よ<rt>yo</rt>ん<rt>n</rt>で<rt>de</rt></ruby>
+<ruby>よ<rt>yo</rt>ん<rt>n</rt>だ<rt>da</rt></ruby>
+<ruby>よ<rt>yo</rt>み<rt>mi</rt>た<rt>ta</rt>い<rt>i</rt></ruby>
+<ruby>よ<rt>yo</rt>め<rt>me</rt>る<rt>ru</rt></ruby>
+<ruby>よ<rt>yo</rt>ま<rt>ma</rt>れ<rt>re</rt>る<rt>ru</rt></ruby>
+<ruby>よ<rt>yo</rt>ま<rt>ma</rt>せ<rt>se</rt>る<rt>ru</rt></ruby>
+<ruby>よ<rt>yo</rt>め<rt>me</rt>ば<rt>ba</rt></ruby>
+<ruby>よ<rt>yo</rt>も<rt>mo</rt>う<rt>u</rt></ruby>
+<ruby>よ<rt>yo</rt>め<rt>me</rt></ruby>
+<ruby>よ<rt>yo</rt>ん<rt>n</rt>だ<rt>da</rt>ら<rt>ra</rt></ruby>
+<ruby>よ<rt>yo</rt>ま<rt>ma</rt></ruby>
+
+<ruby>き<rt>ki</rt>る<rt>ru</rt></ruby>
+<ruby>き<rt>ki</rt>り<rt>ri</rt></ruby>
+<ruby>き<rt>ki</rt>ら<rt>ra</rt>な<rt>na</rt>い<rt>i</rt></ruby>
+<ruby>き<rt>ki</rt>って<rt>tte</rt></ruby>
+<ruby>き<rt>ki</rt>った<rt>tta</rt></ruby>
+<ruby>き<rt>ki</rt>り<rt>ri</rt>た<rt>ta</rt>い<rt>i</rt></ruby>
+<ruby>き<rt>ki</rt>れ<rt>re</rt>る<rt>ru</rt></ruby>
+<ruby>き<rt>ki</rt>ら<rt>ra</rt>れ<rt>re</rt>る<rt>ru</rt></ruby>
+<ruby>き<rt>ki</rt>ら<rt>ra</rt>せ<rt>se</rt>る<rt>ru</rt></ruby>
+<ruby>き<rt>ki</rt>れ<rt>re</rt>ば<rt>ba</rt></ruby>
+<ruby>き<rt>ki</rt>ろ<rt>ro</rt>う<rt>u</rt></ruby>
+<ruby>き<rt>ki</rt>れ<rt>re</rt></ruby>
+<ruby>き<rt>ki</rt>った<rt>tta</rt>ら<rt>ra</rt></ruby>
+<ruby>き<rt>ki</rt>ら<rt>ra</rt></ruby>
+
+¶
+
+I-adjectives
+<ruby>た<rt>ta</rt>の<rt>no</rt>し<rt>shi</rt>い<rt>i</rt></ruby>
+<ruby>た<rt>ta</rt>の<rt>no</rt>し<rt>shi</rt>さ<rt>sa</rt></ruby>
+<ruby>た<rt>ta</rt>の<rt>no</rt>し<rt>shi</rt>く<rt>ku</rt></ruby>
+<ruby>た<rt>ta</rt>の<rt>no</rt>し<rt>shi</rt>く<rt>ku</rt>て<rt>te</rt></ruby>
+<ruby>た<rt>ta</rt>の<rt>no</rt>し<rt>shi</rt>か<rt>ka</rt>った<rt>tta</rt></ruby>
+<ruby>た<rt>ta</rt>の<rt>no</rt>し<rt>shi</rt>く<rt>ku</rt>な<rt>na</rt>い<rt>i</rt></ruby>
+<ruby>た<rt>ta</rt>の<rt>no</rt>し<rt>shi</rt>け<rt>ke</rt>れ<rt>re</rt>ば<rt>ba</rt></ruby>
+
+NA-adjectives
+<ruby>き<rt>ki</rt>れ<rt>re</rt>い<rt>i</rt>な<rt>na</rt></ruby>
+<ruby>き<rt>ki</rt>れ<rt>re</rt>い<rt>i</rt></ruby>
+<ruby>き<rt>ki</rt>れ<rt>re</rt>い<rt>i</rt>で<rt>de</rt></ruby>
+<ruby>き<rt>ki</rt>れ<rt>re</rt>い<rt>i</rt>だ<rt>da</rt>った<rt>tta</rt></ruby>
+<ruby>き<rt>ki</rt>れ<rt>re</rt>い<rt>i</rt>に<rt>ni</rt></ruby>
+<ruby>き<rt>ki</rt>れ<rt>re</rt>い<rt>i</rt>じゃ<rt>ja</rt>な<rt>na</rt>い<rt>i</rt></ruby>
+<ruby>き<rt>ki</rt>れ<rt>re</rt>い<rt>i</rt>だ<rt>da</rt>け<rt>ke</rt>れ<rt>re</rt>ば<rt>ba</rt></ruby>
+
+Exceptions
+"When speaking casually, <ruby>よ<rt>yo</rt>い<rt>i</rt></ruby> (good) is usually pronounced as <ruby>い<rt>i</rt>い<rt>i</rt></ruby>."
