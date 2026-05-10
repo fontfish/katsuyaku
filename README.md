@@ -23,6 +23,7 @@ please reference a more reliable source.
 - [ ] Add all verb forms (including nonstandard) and descriptions.
 - [ ] Add all adjective forms.
 - [ ] Add all conjugation and descriptions.
+- [ ] Tidy and sort order of conjugations, ensure consistency.
 - [ ] Get basic styling working (clickable objects highlighted on mouseover).
 - [ ] Add header descriptions.
 - [ ] Consistently rewrite all descriptions. (Clarity is more important than formality.)
